@@ -25,16 +25,22 @@ The pipeline demonstrates **PDF text extraction, TF-IDF feature extraction, Rand
 ---
 **Data Split:** 80% of the judgments were used for training and 20% for testing.
 
-Classification Report:
+## Results
 
-Jurisdiction Category           Precision  Recall  F1-Score  Support
----------------------------------------------------------------
-Civil Appellate Jurisdiction    1.00      1.00    1.00      3
-Criminal Appellate Jurisdiction 1.00      1.00    1.00      2
-Original Side                   0.50      0.67    0.57      3
-Writ Jurisdiction               0.00      0.00    0.00      2
+**Classification Report**
 
-Overall Metrics:
-Accuracy: 70%
-Macro Avg F1-Score: 0.64
-Weighted Avg F1-Score: 0.67
+| Jurisdiction Category           | Precision | Recall | F1-Score | Support |
+|---------------------------------|-----------|--------|----------|--------|
+| Civil Appellate Jurisdiction    | 1.00      | 1.00   | 1.00     | 3      |
+| Criminal Appellate Jurisdiction | 1.00      | 1.00   | 1.00     | 2      |
+| Original Side                   | 0.50      | 0.67   | 0.57     | 3      |
+| Writ Jurisdiction               | 0.00      | 0.00   | 0.00     | 2      |
+
+**Overall Metrics**
+
+| Metric               | Value |
+|----------------------|-------|
+| Accuracy             | 70%   |
+| Macro Avg F1-Score   | 0.64  |
+| Weighted Avg F1-Score| 0.67  |
+
